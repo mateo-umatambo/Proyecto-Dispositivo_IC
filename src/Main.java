@@ -14,4 +14,6 @@ void main() {
 
     d1.mostrarInformacion();
     d2.mostrarEstado();
+    d2.mostrarInformacion();
+    d1.mostrarEstado();
 }
