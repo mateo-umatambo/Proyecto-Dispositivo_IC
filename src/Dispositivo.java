@@ -1,7 +1,7 @@
 public class Dispositivo {
-    public String nombre;
-    String tipo;
-    public boolean activo;
+    private String nombre;
+    private String tipo;
+    private boolean activo;
 
     public void mostrarInformacion(){
         System.out.println("Nombre: " +nombre);
@@ -11,6 +11,9 @@ public class Dispositivo {
     void mostrarEstado(){
         String estado = activo?"activo":"inhabilitado";
         System.out.println("Nombre: " +nombre+ "\nEstado: " +estado);
-
+    }
+    public void setNombre(String nombre)
+    {
+        this.nombre = nombre;
     }
 }
